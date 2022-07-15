@@ -3,18 +3,53 @@
     --gray: gray;
 }
 * {
-    background-color: var(--gray);
     font-family: serif;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ul {
+    overflow: hidden;
+    background-color: rgb(110, 88, 117);
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+  }
   
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px;
+  }
+  
+  li a:hover {
+    background-color: darkgray;
+  }
+
   h2{
-    padding: 20px;
+    padding: 32px;
     outline: solid black;
     background-color: darkcyan;
     border-radius: 10px;
     text-align: center;
     font-size: 40px;
   }
+  h3{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: lightseagreen;
+    background-clip: padding-box;
+    height: 40px;
+  }
+
+
+  
 .glowbutton {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
@@ -29,9 +64,48 @@
     box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
   }
 
+  .resumepad > img{
+    background-color: var(--gray);
+    width: 100%;
+    padding: 10px;
+    background-color: lightseagreen;
+    max-width: 300px;
+    max-height: 400px; 
+    outline: solid black;
+    margin-top: 20px;
+    
+  }
+.resumepad{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  p{
+    
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    background-color: lightseagreen;
+    justify-content: center;
+    max-width: 500px;
+    border-radius: 20px;
+    outline: solid black;
+    margin-top: 10px;
+  }
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  outline: solid black;
+}
+
   body {
     background-color: var(--gray);
     padding: 15px;
+    
   }
   
   .adjust {
@@ -46,41 +120,64 @@
   
   .row {
     margin: 8px -16px;
+    
   }
   
-  /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 10px;
+    
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float: left;
     width: 25%;
   }
   
-  /* Clear floats after rows */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Content */
   .content {
-    background-color: white;
+    outline: solid black;
+    background-color: lightseagreen;
+    border-radius: 10px;
     padding: 10px;
   }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
+ 
+
+input[type=text], select, textarea {
+  width: 50%; 
+  padding: 12px;  
+  border-radius: 4px; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightgreen;
+
+}
+.contact.php{
+  font-style: bold;
+}
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;

@@ -4,53 +4,84 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./reset.css" />
         <link rel="stylesheet" href="./style.css">
+        
         <title>Terry Kim Portfolio</title>
+
     </head>
-<body> 
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#work">My Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+<body>
+  <section id="home"></section>
     <a href="#" class="glowbutton"><h2>Welcome to Terry Kim's Portfolio!</h2></a>
         
+    <article class="resumepad">
+      <img src="./292210085_772167787123869_1205280522412075649_n.jpg" class="resume">
+      <br>
+      <p>Terry Kim: Engineer, Novice Coder, and Cat Father.</p>
+      <a href="https://docs.google.com/document/d/e/2PACX-1vTH57dCPfVmY00k9aflbWmeoLVS7u8P3F4BeCJEm_k8Z1Pm42xwrdQQsHW5XJe8LM0ULTRACAKca4CD/pub"><p>Check out my resume!</p></url>
+    </article>
+
+    <section id="work"></section>
 
     <section class="row">
       <section class="column">
         <section class="content">
-          <img src="mountains.jpg" alt="Mountains" style="width:100%">
-          <h3>My Work</h3>
-          <p>Refractoring Horiseon</p>
+          <a href="https://teryking.github.io/Refractoring-Code-Terry-Kim/" class="worklinks" style="width:100%">
+          <img src="https://teryking.github.io/Refractoring-Code-Terry-Kim/assets/images/digital-marketing-meeting.jpg" alt="workimg" width="300" height="400">
+          <br>
+          <h3>Horiseon</h3>
+          <h3>Check out my Horiseon Refractoring!</h3>
+          </a>
         </section>
     </section>
       <section class="column">
         <section class="content">
-          <img src="lights.jpg" alt="Lights" style="width:100%">
-          <h3>My Work</h3>
-          <p>Lorem ipsum..</p>
+          <a href="https://github.com/TeryKing" class="worklinks" style="width:100%">
+          <img src="https://i.ytimg.com/vi/OEGm7LXAN_c/maxresdefault.jpg" alt="workimg" width="300" height="400">
+          <br>
+          <h3>GitHub</h3>
+          <h3>Check out my GitHub!</h3>
+          </a>
         </section>
       </section>
       <section class="column">
         <section class="content">
-          <img src="nature.jpg" alt="Nature" style="width:100%">
-          <h3>My Work</h3>
-          <p>Lorem ipsum..</p>
+          <a href="https://www.linkedin.com/in/terry-kim-0bba051b7/" class="worklinks" style="width:100%">
+          <img src="https://neilpatel.com/wp-content/uploads/2017/03/linkedin.jpg" alt="workimg" width="300" height="400">
+          <br>
+          <h3>LinkedIn</h3>
+          <h3>Check out my Linkedin!</h3>
+          </a>
         </section>
       </section>
       <section class="column">
         <section class="content">
-          <img src="mountains.jpg" alt="Mountains" style="width:100%">
-          <h3>My Work</h3>
-          <p>Lorem ipsum..</p>
+          <a href="placeholder" class="worklinks" style="width:100%">
+          <img src="https://townofmaringouin.net/wp-content/uploads/image-placeholder-500x500-1.jpg" alt="workimg" width="300" height="400">
+          <br>
+          <h3>Placeholder</h3>
+          <h3>Placeholder</h3>
+          </a>
         </section>
       </section>
     </section>
     
-    <article class="content">
-      <img src="bear.jpg" alt="Bear" style="width:100%">
-      <h3>Some Other Work</h3>
-      <p>Lorem ipsum..</p>
-    </article>
+    <section id="contact"></section>
+    <form action="contact.php" method="post">
+      <h4>Name:</h4> <input type="text" name="name"><br>
+      <h4>E-mail: </h4> <input type="text" name="email"><br>
+      <h4>Contact me!:</h4> <input type="text" name="comment"><br>
+      <input type="submit">
+      </form>
 </br>
 
 <footer>
-    Made by Terry Kim
+    <h5>Made by Terry Kim</h5>
 </footer>
 
 </body>
