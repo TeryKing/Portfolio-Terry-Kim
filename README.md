@@ -6,7 +6,8 @@ Terry Kim's Portfolio
 
 ## Screenshots
 
-![App Screenshot]()
+![App Screenshot](./TKPortfolioPage.gif)<br>
+![App Screenshot](./TKPortfolioPageMobile.gif)<br>
 Live Website: 
 
 
@@ -18,6 +19,8 @@ Live Website:
 ## Acknowledgements
 
 Georgia Tech Coding Bootcamp: https://bootcamp.pe.gatech.edu/coding/
+
+W3Schools : https://www.w3schools.com/
 
 ## Feedback
 
