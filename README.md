@@ -6,8 +6,8 @@ Terry Kim's Portfolio
 
 ## Screenshots
 
-![App Screenshot](./TKPortfolioPage.gif)<br>
-![App Screenshot](./TKPortfolioPageMobile.gif)<br>
+![App Screenshot](./assets/TKPortfolioPage.gif)<br>
+![App Screenshot](./assets/TKPortfolioPageMobile.gif)<br>
 Live Website: 
 
 
