@@ -6,11 +6,11 @@
     font-family: serif;
     
   }
-
+/*Scrolling with Navigation bar*/
   html {
     scroll-behavior: smooth;
   }
-
+/*Navigation bar with hover effect details*/
   ul {
     overflow: hidden;
     background-color: rgb(110, 88, 117);
@@ -32,7 +32,7 @@
   li a:hover {
     background-color: darkgray;
   }
-
+/*Details of the text within the html*/
   h2{
     padding: 32px;
     outline: solid black;
@@ -50,7 +50,7 @@
   }
 
 
-  
+  /*The main page's header glow effect*/
 .glowbutton {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
@@ -64,7 +64,7 @@
     color: rgb(79, 16, 121);
     box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
   }
-
+/*The user photo details*/
   .resumepad > img{
     background-color: var(--gray);
     width: 100%;
@@ -84,6 +84,8 @@
   align-items: center;
 
 }
+
+/*Text within the user photo details*/
   p {
     
     font-style: italic;
@@ -105,11 +107,11 @@ img {
   width: 100%;
   outline: solid black;
 }
-
+/*Hover to scale the size of the image + text*/
 .column:hover {
   transform: scale(1.1);
 }
-
+/*Background color*/
 body {
     height: 100%;
     margin: 0;
@@ -119,7 +121,7 @@ body {
     padding: 15px;
     
   }
-  
+    /*Some row and column adjustments*/
 .adjust {
     max-width: 1000px;
     margin: auto;
@@ -134,7 +136,7 @@ h1 {
     margin: 8px -16px;
     
   }
-  
+
   .row,
   .row > .column {
     padding: 10px;
@@ -159,7 +161,7 @@ h1 {
     padding: 10px;
   }
  
-
+/*The Contact information box details*/
 input[type=text], select, textarea {
   width: 50%; 
   padding: 12px;  
@@ -184,6 +186,8 @@ input[type=submit]:hover {
 .contact.php{
   font-style: bold;
 }
+
+/*Adjusting to media screens of different devices*/
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
