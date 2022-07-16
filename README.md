@@ -8,7 +8,7 @@ Terry Kim's Portfolio
 
 ![App Screenshot](./assets/TKPortfolioPage.gif)<br>
 ![App Screenshot](./assets/TKPortfolioPageMobile.gif)<br>
-Live Website: 
+Live Website: https://teryking.github.io/Portfolio-Terry-Kim/
 
 
 ## Authors
